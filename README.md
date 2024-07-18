@@ -1,88 +1,57 @@
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
+# Storybook UI Testing Handbook
 
-<h1 align="center">
-  Chromatic's UI Testing Handbook React template
-</h1>
+This repository was created as part of my Front-End internship at Foothill Technology Solutions. It follows the [UI Testing Handbook](https://storybook.js.org/tutorials/ui-testing-handbook/) tutorial provided by Storybook. The aim was to learn Storybook, a tool for developing UI components in isolation for React, Vue, and Angular.
 
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
+## Overview
 
-## 🚅 Quick start
+This repository contains the code and configurations resulting from following each chapter of the Storybook UI Testing Handbook tutorial. The tutorial covers various aspects of UI testing with Storybook, including setting up Storybook, writing stories, testing with Jest, and integrating with other tools.
 
-1.  **Create the application.**
+## Demo
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+You can view a live demo of the Storybook by following this [link](https://6697fe6e41a8af33d6e11bfe-hkrbhyujqv.chromatic.com/).
 
-    ```shell
-    # Clone the template
-    npx degit chromaui/ui-testing-handbook-react-template ui-testing-guide-code
-    ```
+## Internship at Foothill Technology Solutions
 
-1.  **Install the dependencies.**
+This project was developed during my front-end internship at Foothill Technology Solutions. The experience was instrumental in understanding the practical applications of UI testing in modern web development and honing my skills in React and Storybook.
 
-    Navigate into your new site’s directory and install the necessary dependencies.
+## Getting Started
 
-    ```shell
-    # Navigate to the directory
-    cd ui-testing-guide-code/
+To clone this repository and run Storybook locally, follow these steps:
 
-    # Install the dependencies
-    yarn
-    ```
+### Prerequisites
 
-1.  **Open the source code and start editing!**
+- Node.js (v12 or later)
+- npm (v6 or later)
 
-    Open the `ui-testing-guide-code` directory in your code editor of choice and building your first component!
+### Installation
 
-1.  **Browse your stories!**
+1. Clone the repository:
 
-    Run `yarn storybook` to see your component's stories at `http://localhost:6006`
+   ```bash
+   git clone https://github.com/Jamal-SaadEddin/ui-testing-guide-code.git
+   cd ui-testing-guide-code
+   ```
 
-## 🔎 What's inside?
+2. Install the dependencies:
 
-A quick look at the top-level files and directories included with this template.
+   ```bash
+   npm install
+   ```
 
-    .
-    ├── .storybook
-    ├── node_modules
-    ├── public
-    ├── src
-    ├── .gitignore
-    ├── .index.html
-    ├── package.json
-    ├── yarn.lock
-    ├── vite.config.js
-    └── README.md
+### Running Storybook
 
-1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
+To start Storybook locally, use the following command:
 
-2.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
+```bash
+npm run storybook
+```
 
-3.  **`public`**: This directory will contain the development and production build of the site.
+This will start the Storybook server and open it in your default web browser.
 
-4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
+## Contributions
 
-5.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
+Contributions are welcome. Please fork the repository and submit a pull request with your updates.
 
-6.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
+## License
 
-7.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
-
-8.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
-
-9.  **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
-
-10. **`README.md`**: A text file containing useful reference information about the project.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
