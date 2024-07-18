@@ -38,7 +38,7 @@ export default function Task({
           value={title}
           name="title"
           placeholder="Input title"
-          style={{ textOverflow: "ellipsis", backgroundColor: "yellowgreen" }}
+          style={{ textOverflow: "ellipsis" }}
           onChange={(e) => onEditTitle(e.target.value, id)}
         />
       </label>
